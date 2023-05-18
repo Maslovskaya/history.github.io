@@ -1,0 +1,275 @@
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.5rem;
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #696969;
+  position: center;
+}
+
+#title {
+  background-color: #D3B9DB;
+}
+
+.space {
+  padding-top: 10px;
+}
+
+.font-1 {
+  padding-bottom: 1.5rem;
+  font-family: 'Happy Monkey', cursive;
+  line-height: 1.5;
+  font-size: 4rem;
+  color: #63056E;
+  font-weight: bold;
+}
+
+.container {
+  padding: 3% 15% 15%;
+}
+
+.img-apple {
+  padding-bottom: 6px;
+}
+
+.spaxe {
+  padding: 0 1%;
+}
+
+/* Navigation Bar */
+
+
+.navbar-brand {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+}
+
+
+/* Title Image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 20%;
+  bottom: 1%;
+}
+
+
+/* feauter section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 10pt;
+}
+
+.feauter-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  width: 12%;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 1% 1%;
+  text-align: center;
+  background-color: #D3B9DB;
+  color: #63056E;
+}
+
+.testimonial-image {
+   width: 25%;
+   border-radius: 50%;
+   margin: 20px;
+}
+
+#press {
+  background-color: #D3B9DB;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 0;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.momomo {
+  font-size: 1.2rem;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  background-color: #D3B9DB;
+  olor: #63056E;
+  padding: 100px;
+  text-align: center;
+}
+
+#head {
+  text-align: center;
+  font-size: 35pt;
+}
+
+#head1 {
+  font-size: 20pt;
+}
+
+.pricing-column {
+  position: relative;
+  left: 33%;
+  padding: 3% 2%;
+}
+
+
+
+@media (max-width: 1200px) {
+  .title-image {
+    position: absolute;
+    right: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  .title-image {
+    position: absolute;
+    top: 60%;
+  }
+}
+
+@media (max-width: 770px) {
+  .title-image {
+    position: absolute;
+    top: 60%;
+    right: 7%;
+  }
+}
+
+@media (max-width: 770px) {
+  .title-image {
+    width: 0;
+    height: 0;
+  }
+  #title {
+    text-align: center;
+    padding: 5%;
+  }
+}
+
+
+/* Contacts Section */
+
+#cta {
+  background-color: #D3B9DB;
+  padding: 8%;
+  text-align: center;
+}
+
+.contact-section {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: #63056E;
+  padding-bottom: 20px;
+}
+
+
+#footer {
+  padding: 3%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.brands-logo {
+  padding: 10px;
+}
+
+/* КНОПКА */
+.btnn {
+  background: #ff0000;
+  background-image: -webkit-linear-gradient(top, #ff0000, #940000);
+  background-image: -moz-linear-gradient(top, #ff0000, #940000);
+  background-image: -ms-linear-gradient(top, #ff0000, #940000);
+  background-image: -o-linear-gradient(top, #ff0000, #940000);
+  background-image: linear-gradient(to bottom, #ff0000, #940000);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnn:hover {
+  background: #56026E;
+  background-image: -webkit-linear-gradient(top, #56026E, #BB63D4);
+  background-image: -moz-linear-gradient(top, #56026E, #BB63D4);
+  background-image: -ms-linear-gradient(top, #56026E, #BB63D4);
+  background-image: -o-linear-gradient(top, #56026E, #BB63D4);
+  background-image: linear-gradient(to bottom, #56026E, #BB63D4);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.btnnn {
+  background: #EDD1EC;
+  background-image: -webkit-linear-gradient(top, #EDD1EC, #EDD1EC);
+  background-image: -moz-linear-gradient(top, #EDD1EC, #EDD1EC);
+  background-image: -ms-linear-gradient(top, #EDD1EC, #EDD1EC);
+  background-image: -o-linear-gradient(top, #EDD1EC, #EDD1EC);
+  background-image: linear-gradient(to bottom, #EDD1EC, #EDD1EC);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #56026E;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnnn:hover {
+  background: #56026E;
+  background-image: -webkit-linear-gradient(top, #56026E, #56026E);
+  background-image: -moz-linear-gradient(top, #56026E, #56026E);
+  background-image: -ms-linear-gradient(top, #56026E, #56026E);
+  background-image: -o-linear-gradient(top, #56026E, #56026E);
+  background-image: linear-gradient(to bottom, #56026E, #56026E);
+  color: #ffffff;
+  text-decoration: none;
+}
